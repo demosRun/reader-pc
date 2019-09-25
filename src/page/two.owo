@@ -1,0 +1,412 @@
+<template lang="pug">
+.two
+  temple(name="topBar2", logo="http://www.people.com.cn/img/2016people/images/rmw_logo.png", src="https://owo.ink/public/2259616cc09d409ddece5662234b817e.page")
+  img.soulless.so-11.item-11(src="@|one-11.png|")
+  //- 底部红旗
+  img.soulless.so-3-one.item-3(width="2262", height="205", src="@|one-3.png|")
+  img.soulless.so-5-one.item-5(src="@|one-5.png|")
+  img.soulless.so-9-one.item-9(width="88", height="70", src="@|one-9.png|")
+  img.soulless.so-8-one.item-8(width="101", height="80", src="@|one-8.png|")
+  img.soulless.so-10-one.item-10(src="@|one-10.png|")
+  //- 内容区域
+  .content-box(tap="hideMenu")
+    img.soulless.so-9.item-9(src="@|two-9.png|")
+    p.soulless.so-8.item-8
+    p.soulless.so-7.item-7
+    p.soulless.so-6.item-6
+    img.soulless.so-2.item-2(width="653", height="387")
+    p.soulless.so-3.item-3
+  //- 菜单
+  .menu-box
+    //- 菜单上部区域
+    img.mini-logo(src="@|one-7.png|")
+    ul.menu
+  //- 填写区域
+  ul.edit
+    li
+     .menu-text 武警新疆总队某特勤中队1
+     .main-title 武警新疆总队<br>第一特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石1
+     .text 在阻击战最关键的时候，李延年和战友们连夜急行军100多里，双腿跑赢了敌人的汽车，赶在天亮之前到达预定地点修筑工事。在修筑工事期间，敌人以数倍兵力扑了上来发起一轮轮强力冲击一批批战友倒在了前沿阵地。他清晰地记得，在那场空前惨烈的战斗中。了上来发起一轮轮强力冲击一批批战友倒在了前沿阵地了上来发起一轮轮强力冲击一批批战友倒在了前沿阵地。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队2
+     .main-title 武警新疆总队<br>第二特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石2
+     .text 行进的中国奔年是新中国成立70周年本次活动以守初心担使命踏征程跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909241415141890356570908.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队3
+     .main-title 武警新疆总队<br>第三特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石3
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240720306651474015532.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队4
+     .main-title 武警新疆总队<br>第四特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石4
+     .text 行进的中国奔跑的力量。2019年和祖国一同奔跑为主题，鼓励人们展是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909241352575189327426037.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队5
+     .main-title 武警新疆总队<br>第五特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石5
+     .text 行进的中国奔跑的奔跑为主题，鼓励人们展示新力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 武警新疆总队<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 武警新疆总队<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 武警新疆总队<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 武警新疆总队<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 武警新疆总队<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 武警新疆总队<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 最后一页<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 最后一页<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+    li
+     .menu-text 武警新疆总队某特勤中队
+     .main-title 最后一页<br>某特勤中队
+     .title 武警某特勤中队：维护安全稳定压舱石舱石
+     .text 行进的中国奔跑的力量。2019年是新中国成立70周年本次活动以守初心担使命踏征程逐梦想，我和祖国一同奔跑为主题，鼓励人们展示新时代人奋斗团结、梦想的精神，起逐梦新时代。
+     .link http://www.people.com.cn
+     .img http://www.people.com.cn/NMediaFile/2019/0924/MAIN201909240803358180325821338.jpg
+     .info 组图：跟着三角边边防战士去中蒙边境巡逻
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      showMenu: false,
+      nowIndex: 0,
+      inMove: false
+    },
+    created: function () {
+      setTimeout(() => {
+        this.change(0)
+      }, 0)
+      this.$el.onmousewheel = (e) => {
+        if (!e) return
+        if (this.data.inMove) return
+        this.data.inMove = true
+        setTimeout(() => {
+          this.data.inMove = false
+        }, 500)
+        if (e.deltaY > 0) {
+          // 判断是否到了最后
+          if (this.data.nowIndex < this.data.number - 1) {
+            this.change(++this.data.nowIndex)
+          } else {
+            owo.tool.toast('已经到最后了!', 20)
+          }
+        } else {
+          if (this.data.nowIndex < 1) {
+            owo.go('one')
+          } else {
+            this.change(--this.data.nowIndex)
+          }
+        }
+      }
+    },
+    show: function () {
+      if (this.data.isOk) return
+      
+      this.data.isOk = true
+      // 生成菜单
+      let menu = ''
+      const menuText = owo.query('.edit li .menu-text')
+      
+      this.data.number = menuText.length
+      for (let key = 0; key < menuText.length; key++) {
+        const element = menuText[key]
+        menu += `<li onclick="owo.script.two.change(${key})" ind="${key}">${element.innerHTML}</li>`
+      }
+      menu += `<li class="home" onclick="owo.script.two.toHome()">首页</li>`
+      console.log('----------------------------------')
+      console.log(owo.query('.menu-box .menu'))
+      owo.query('.menu-box .menu')[0].innerHTML = menu
+      setTimeout(() => {
+        console.log('生成')
+        _owo.handlePage(this, this.$el)
+      }, 1000)
+    },
+    showMenu: function () {
+      if (this.data.showMenu) {
+        owo.query('.menu-box')[0].style.right = '-330px'
+        this.data.showMenu = false
+      } else {
+        owo.query('.menu-box')[0].style.right = '0px'
+        this.data.showMenu = true
+      }
+    },
+    toHome: function () {
+      this.hideMenu()
+      setTimeout(() => {
+        owo.go('one')
+      }, 0)
+      
+    },
+    hideMenu: function () {
+      if (this.data.showMenu) {
+        owo.query('.menu-box')[0].style.right = '-330px'
+        this.data.showMenu = false
+      }
+    },
+    change: function (ind) {
+      this.data.nowIndex = parseInt(ind)
+      owo.query('.content-box')[0].style.opacity = '0'
+      setTimeout(() => {
+        owo.query('.so-8')[0].innerHTML = owo.query('.edit li .main-title')[ind].innerHTML
+        owo.query('.so-7')[0].innerHTML = owo.query('.edit li .title')[ind].innerHTML
+        owo.query('.so-2')[0].src = owo.query('.edit li .img')[ind].innerText
+        owo.query('.so-3 ')[0].innerHTML = owo.query('.edit li .info')[ind].innerHTML
+        owo.query('.so-6 ')[0].innerHTML = owo.query('.edit li .text')[ind].innerText + `<a target="_blank" href="${owo.query('.edit li .link')[ind].innerText}">详情</a>`
+        setTimeout(() => {
+          owo.query('.content-box')[0].style.opacity = '1'
+        }, 0)
+      }, 300)
+      this.hideMenu()
+      // 清除所有菜单活跃状态
+      const listData = owo.query('.menu-box .menu li')
+      for (let ind = 0; ind < listData.length; ind++) {
+        const element = listData[ind]
+        if (element.classList) element.classList.remove('active')
+      }
+      if (owo.query('.menu-box .menu li')[ind]) {
+        if (owo.query('.menu-box .menu li')[ind].classList) owo.query('.menu-box .menu li')[ind].classList.add('active')
+      } else {
+        console.log(owo.query('.menu-box .menu li')[ind])
+      }
+      
+      // owo.query('.menu-box .menu li')[0].classList.add('active')
+    }
+  }
+</script>
+
+
+<style lang="less">
+.edit {
+  display: none;
+}
+.content-box {
+  width: 1000px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0%;
+  margin: auto;
+  height: 680px;
+  overflow: hidden;
+  z-index: 99;
+}
+.so-9 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  height: 14%;
+}
+.so-8 {
+  color: white;
+  position: absolute;
+  line-height: 70px;
+  font-size: 32px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  br {
+    display: none;
+  }
+}
+.so-7 {
+  position: absolute;
+  top: 15%;
+  color: white;
+  font-size: 27px;
+  line-height: 40px;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+.so-6 {
+  color: white;
+  font-size: 15px;
+  line-height: 25px;
+  position: absolute;
+  width: 57%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 23%;
+  height: 140px;
+  overflow: auto;
+  a {
+    color: #ebc560;
+  }
+}
+.so-2 {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 52%;
+  width: auto;
+}
+.so-3 {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  left: 220px;
+  line-height: 20px;
+  display: block;
+}
+.so-11 {
+  position: absolute;
+  left: -2%;
+  top: 2%;
+  height: 25%;
+}
+.so-3-one {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 80%;
+  height: auto;
+}
+.so-5-one {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 8;
+  height: 10%;
+}
+.so-9-one {
+  position: absolute;
+  left: 42%;
+  right: 0;
+  bottom: 18%;
+  z-index: 4;
+  margin: auto;
+}
+.so-8-one {
+  position: absolute;
+  left: 0;
+  right: 49%;
+  margin: auto;
+  bottom: 10%;
+  z-index: 5;
+}
+.so-10-one {
+  position: absolute;
+  left: 6%;
+  right: 0;
+  bottom: 0px;
+  z-index: 3;
+  margin: 0 auto;
+  height: 44%;
+  width: auto;
+}
+.menu-box {
+  position: absolute;
+  width: 200px;
+  font-size: 15px;
+  color: #fbc483;
+  right: 4%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 460px;
+  line-height: 30px;
+  font-weight: bold;
+  li {
+    cursor: pointer;
+    border-right: 1px solid #f9c089;
+  }
+  .active {
+    color: white;
+    border-right: 3px solid white;
+    border-radius: 2px;
+  }
+  .home {
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+    border-right: none;
+  }
+}
+.mini-logo {
+  position: absolute;
+  width: 54%;
+  top: -21%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+</style>

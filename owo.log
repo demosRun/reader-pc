@@ -1,0 +1,70 @@
+15:53:21.596 INFO  --------------------------- 开始编译 --------------------------- 
+15:53:21.596 INFO  程序运行目录: D:\work\reader-pc 
+15:53:21.596 INFO  首次启动! 
+15:53:21.596 INFO  生成版本号: 4208datc4v3 
+15:53:21.596 INFO  文件夹不存在: D:\work\reader-pc\dist 
+15:53:21.597 INFO  创建文件夹: D:\work\reader-pc\dist 
+15:53:21.597 INFO  文件夹不存在: D:\work\reader-pc\dist\static 
+15:53:21.597 INFO  创建文件夹: D:\work\reader-pc\dist\static 
+15:53:21.597 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+15:53:21.597 DEBUG 读取网页标题: 页面 
+15:53:21.597 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+15:53:21.598 DEBUG 模块 one 因名称重复被重命名为 one0 
+15:53:21.598 INFO  开始处理模块: one 
+15:53:22.054 INFO  开始处理模块: one 
+15:53:22.054 DEBUG 使用文件缓存:D:\work\reader-pc\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+15:53:22.063 DEBUG 缓存模板: topBarundefined 
+15:53:22.067 DEBUG 模板one处理用时: 13 毫秒! 
+15:53:22.118 DEBUG 发现 keyframes 规则: mouseMove 
+15:53:22.119 DEBUG 缓存模板: one./src/page/one.page 
+15:53:22.119 DEBUG 模板one处理用时: 521 毫秒! 
+15:53:22.119 DEBUG 模块 two 因名称重复被重命名为 two0 
+15:53:22.119 INFO  开始处理模块: two 
+15:53:22.207 INFO  开始处理模块: two 
+15:53:22.210 DEBUG 缓存模板: topBar2undefined 
+15:53:22.210 DEBUG 模板two处理用时: 3 毫秒! 
+15:53:22.224 DEBUG 缓存模板: two./src/page/two.owo 
+15:53:22.224 DEBUG 模板two处理用时: 105 毫秒! 
+15:53:22.225 INFO  文件夹不存在: D:/work/reader-pc/dist/static/resource 
+15:53:22.617 INFO  创建文件夹: D:/work/reader-pc/dist/static/resource 
+15:53:22.617 DEBUG css中的资源处理完毕! 
+15:53:22.617 DEBUG 使用postcss处理样式，使用了1个插件! 
+15:53:22.663 INFO  文件夹不存在: D:\work\reader-pc\dist\static\css 
+15:53:22.663 INFO  创建文件夹: D:\work\reader-pc\dist\static\css 
+15:53:22.663 INFO  开始处理附属css中的资源 
+15:53:22.664 INFO  附属css中的资源处理完毕! 
+15:53:22.664 INFO  处理字体:{} 
+15:53:22.673 INFO  使用postcss处理完毕! 用时: 56 毫秒 
+15:53:22.673 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"one\"] .one:",".one[template=\"one\"]:"],["[template=\"one\"] .one ",".one[template=\"one\"] "],["[template=\"one\"] .one{",".one[template=\"one\"]{"],["[template=\"one\"] div:","div[template=\"one\"]:"],["[template=\"one\"] div ","div[template=\"one\"] "],["[template=\"one\"] div{","div[template=\"one\"]{"],["[template=\"topBar2\"] .title-bar:",".title-bar[template=\"topBar2\"]:"],["[template=\"topBar2\"] .title-bar ",".title-bar[template=\"topBar2\"] "],["[template=\"topBar2\"] .title-bar{",".title-bar[template=\"topBar2\"]{"],["[template=\"topBar2\"] div:","div[template=\"topBar2\"]:"],["[template=\"topBar2\"] div ","div[template=\"topBar2\"] "],["[template=\"topBar2\"] div{","div[template=\"topBar2\"]{"],["[template=\"two\"] .two:",".two[template=\"two\"]:"],["[template=\"two\"] .two ",".two[template=\"two\"] "],["[template=\"two\"] .two{",".two[template=\"two\"]{"],["[template=\"two\"] div:","div[template=\"two\"]:"],["[template=\"two\"] div ","div[template=\"two\"] "],["[template=\"two\"] div{","div[template=\"two\"]{"]] 
+15:53:22.674 INFO  正在处理script! 
+15:53:22.675 INFO  工程中包含多个页面! 
+15:53:22.675 DEBUG 页面中不包含切换动画! 
+15:53:22.677 INFO  文件夹不存在: D:\work\reader-pc\dist\static\js 
+15:53:22.678 INFO  创建文件夹: D:\work\reader-pc\dist\static\js 
+15:53:23.516 INFO  js中的资源处理完毕! 
+15:53:23.516 DEBUG 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"main","src":"./src/main.js","resource":true}] 
+15:53:23.516 DEBUG 外部脚本数量: 2 
+15:53:23.516 DEBUG 处理脚本: jquery1.11.0 
+15:53:23.516 DEBUG 网络脚本: jquery1.11.0 
+15:53:23.516 DEBUG 处理脚本: main 
+15:53:23.516 INFO  读取文件: D:\work\reader-pc\src\main.js 
+15:53:23.517 DEBUG 输出scriptData 
+15:53:23.518 INFO  写文件: D:\work\reader-pc\dist\static\css\owo.animate.4208datc4v3.css 
+15:53:23.518 DEBUG 准备输出html! 
+15:53:23.520 DEBUG 忽略文件: D:/work/reader-pc/src/resource/one-11.png 
+15:53:23.520 DEBUG 忽略文件: D:/work/reader-pc/src/resource/one-3.png 
+15:53:23.520 DEBUG 忽略文件: D:/work/reader-pc/src/resource/one-5.png 
+15:53:23.520 DEBUG 忽略文件: D:/work/reader-pc/src/resource/one-9.png 
+15:53:23.520 DEBUG 忽略文件: D:/work/reader-pc/src/resource/one-8.png 
+15:53:23.520 DEBUG 忽略文件: D:/work/reader-pc/src/resource/one-10.png 
+15:53:23.520 DEBUG 忽略文件: D:/work/reader-pc/src/resource/one-7.png 
+15:53:23.520 DEBUG 处理资源: ["D:/work/reader-pc/src/resource/one-11.png","D:/work/reader-pc/src/resource/one-7.png","D:/work/reader-pc/src/resource/one-2.png","D:/work/reader-pc/src/resource/one-0.png","D:/work/reader-pc/src/resource/one-1.png","D:/work/reader-pc/src/resource/one-4.png","D:/work/reader-pc/src/resource/one-3.png","D:/work/reader-pc/src/resource/one-5.png","D:/work/reader-pc/src/resource/one-9.png","D:/work/reader-pc/src/resource/one-8.png","D:/work/reader-pc/src/resource/one-10.png","D:/work/reader-pc/src/resource/two-9.png"] 
+15:53:23.520 DEBUG 资源目录: D:/work/reader-pc/dist/static/resource 
+15:53:23.522 DEBUG 开始美化html 
+15:53:23.583 INFO  写入文件: D:\work\reader-pc\dist\static\css\owo.main.4208datc4v3.css 
+15:53:23.583 INFO  animation文件写出成功! 
+15:53:23.583 INFO  主要逻辑文件写出成功! 
+15:53:23.584 INFO  读取成功: D:\work\reader-pc\src\main.css 
+15:53:23.585 INFO  读取成功: D:\work\reader-pc\src\main.js 
+15:53:23.782 INFO  写入文件: D:\work\reader-pc\dist\static\css\main.css 
+15:53:23.790 INFO  写入文件: D:\work\reader-pc\dist\static\js\main.js 

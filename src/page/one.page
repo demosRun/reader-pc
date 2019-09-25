@@ -1,0 +1,177 @@
+<template lang="pug">
+.one(:tap="two")
+  temple(name="topBar", logo="http://www.people.com.cn/img/2016people/images/rmw_logo.png", src="https://owo.ink/public/2259616cc09d409ddece5662234b817e.page")
+  img.soulless.so-11.item-11(src="@|one-11.png|")
+  img.soulless.so-7.item-7(width="505", height="383", src="@|one-7.png|")
+  //- 烟花
+  img.soulless.so-2.item-2(width="108", height="108", src="@|one-2.png|")
+  img.soulless.so-0.item-0(width="70", height="70", src="@|one-0.png|")
+  img.soulless.so-1.item-1(width="84", height="84", src="@|one-1.png|")
+  //- 天安门
+  img.soulless.so-4.item-4(width="657", height="30", src="@|one-4.png|")
+  //- 底部红旗
+  img.soulless.so-3.item-3(width="2262", height="205", src="@|one-3.png|")
+  img.soulless.so-5.item-5(src="@|one-5.png|")
+  img.soulless.so-9.item-9(width="88", height="70", src="@|one-9.png|")
+  img.soulless.so-8.item-8(width="101", height="80", src="@|one-8.png|")
+  img.soulless.so-10.item-10(src="@|one-10.png|")
+  //- 向上箭头
+  img.top(src="http://military.people.com.cn/img/MAIN/2017/07/117575/images/jiao.png")
+  //- 文字区域
+  p.text &nbsp;&nbsp;当新中国的历史穿越70年壮丽岁月，当阅兵的集结号传遍千万里华夏大地，全军和武警部队的威武雄姿在此凝聚成一幅幅壮美的强军画卷。那铿锵有力的步伐，那翱翔蓝天的英姿，那排山倒海的气势……集中展示了人民军队威武之师、文明之师、和平之师的昂扬风貌。人民网专访十位参加新中国成立70周年盛大阅兵式的官兵代表，在他们的故事里，看到的不只是接受检阅时的光彩时刻，更有一支大国军队昂首阔步的奋进身影。
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      owo.tool.animate('slideInDown', owo.query('.so-11')[0])
+      owo.tool.animate('slideInUp', owo.query('.so-5')[0])
+      owo.tool.animate('slideInUp', owo.query('.so-3')[0], 500)
+      owo.tool.animate('fadeInUp', owo.query('.so-10')[0], 800)
+      owo.tool.animate('zoomIn', owo.query('.so-7')[0], 1400)
+      // 文字和天安门出现
+      owo.tool.animate('fadeIn', owo.query('.text')[0], 2300)
+      owo.tool.animate('fadeIn', owo.query('.so-4')[0], 2300)
+      // 烟花
+      owo.tool.animate('fadeInUp', owo.query('.so-1')[0], 2800)
+      owo.tool.animate('fadeInUp', owo.query('.so-2')[0], 2800)
+      owo.tool.animate('fadeInUp', owo.query('.so-0')[0], 3200)
+      // 鸽子
+      owo.tool.animate('fadeIn', owo.query('.so-8')[0], 4000)
+      owo.tool.animate('fadeIn', owo.query('.so-9')[0], 4000)
+      this.$el.onmousewheel = function (e) {
+        if (e.deltaY > 0) {
+          owo.go('two')
+        }
+      }
+    },
+    two: function () {
+      owo.go('two')
+    }
+  }
+</script>
+
+
+<style lang="less">
+.so-11 {
+  position: absolute;
+  left: -2%;
+  top: 2%;
+  height: 25%;
+}
+.so-7 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 9%;
+  margin: auto;
+  height: 33%;
+  width: auto;
+}
+.so-2 {
+  position: absolute;
+  left: 0;
+  right: -45%;
+  top: 10%;
+  z-index: 11;
+  margin: auto;
+}
+.so-0 {
+  position: absolute;
+  left: 0;
+  right: -57%;
+  margin: auto;
+  top: 21%;
+  z-index: 13;
+}
+.so-1 {
+  position: absolute;
+  left: 0;
+  right: 44%;
+  margin: auto;
+  top: 23%;
+  z-index: 12;
+}
+.so-4 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 43%;
+  z-index: 9;
+  height: 3%;
+  width: auto;
+}
+.text {
+  color: white;
+  font-size: 18px;
+  width: 647px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 48%;
+  line-height: 27px;
+}
+.so-3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 80%;
+  z-index: 10;
+  height: auto;
+}
+.so-5 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 8;
+  height: 10%;
+}
+.so-9 {
+  position: absolute;
+  left: 42%;
+  right: 0;
+  bottom: 18%;
+  z-index: 4;
+  margin: auto;
+}
+.so-8 {
+  position: absolute;
+  left: 0;
+  right: 49%;
+  margin: auto;
+  bottom: 10%;
+  z-index: 5;
+}
+.so-10 {
+  position: absolute;
+  left: 6%;
+  right: 0;
+  bottom: 0px;
+  z-index: 3;
+  margin: 0 auto;
+  height: 44%;
+  width: auto;
+}
+.top {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 9%;
+  margin: 0 auto;
+  z-index: 100;
+  animation: mouseMove 1.5s ease infinite;
+}
+@keyframes mouseMove {
+  0% {
+    transform: translate3d(0px, 0px, 0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate3d(0px, -40px, 0);
+    opacity: 1;
+  }
+}
+</style>

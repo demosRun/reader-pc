@@ -1,0 +1,587 @@
+body, html, .ox {
+  padding: 0;
+  margin: 0;
+}
+
+.owo-animation {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  transform-style: preserve-3d;
+}
+.owo-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.owo-animation-forward {
+  z-index: 99;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.title-bar[template="topBar"] {
+  height: 40px;
+  background-color: #ffffff;
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+}
+
+[template="topBar"] .content {
+  width: 1000px;
+  height: 40px;
+  margin: auto;
+}
+
+[template="topBar"] img {
+  margin: 5px 10px;
+  height: 30px;
+  border: none;
+}
+
+[template="topBar"] a {
+  float: left;
+  display: block;
+}
+
+[template="topBar"] .link {
+  color: rgba(102, 102, 102, 1.00);
+  font-size: 14px;
+  margin: 0 10px;
+  line-height: 40px;
+}
+
+[template="topBar"] a {
+  color: #333;
+  text-decoration: none;
+}
+[template="one"] .so-11 {
+  position: absolute;
+  left: -2%;
+  top: 2%;
+  height: 25%;
+}
+
+[template="one"] .so-7 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 9%;
+  margin: auto;
+  height: 33%;
+  width: auto;
+}
+
+[template="one"] .so-2 {
+  position: absolute;
+  left: 0;
+  right: -45%;
+  top: 10%;
+  z-index: 11;
+  margin: auto;
+}
+
+[template="one"] .so-0 {
+  position: absolute;
+  left: 0;
+  right: -57%;
+  margin: auto;
+  top: 21%;
+  z-index: 13;
+}
+
+[template="one"] .so-1 {
+  position: absolute;
+  left: 0;
+  right: 44%;
+  margin: auto;
+  top: 23%;
+  z-index: 12;
+}
+
+[template="one"] .so-4 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 43%;
+  z-index: 9;
+  height: 3%;
+  width: auto;
+}
+
+[template="one"] .text {
+  color: white;
+  font-size: 18px;
+  width: 647px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 48%;
+  line-height: 27px;
+}
+
+[template="one"] .so-3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 80%;
+  z-index: 10;
+  height: auto;
+}
+
+[template="one"] .so-5 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 8;
+  height: 10%;
+}
+
+[template="one"] .so-9 {
+  position: absolute;
+  left: 42%;
+  right: 0;
+  bottom: 18%;
+  z-index: 4;
+  margin: auto;
+}
+
+[template="one"] .so-8 {
+  position: absolute;
+  left: 0;
+  right: 49%;
+  margin: auto;
+  bottom: 10%;
+  z-index: 5;
+}
+
+[template="one"] .so-10 {
+  position: absolute;
+  left: 6%;
+  right: 0;
+  bottom: 0px;
+  z-index: 3;
+  margin: 0 auto;
+  height: 44%;
+  width: auto;
+}
+
+[template="one"] .top {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 9%;
+  margin: 0 auto;
+  z-index: 100;
+  -webkit-animation: mouseMove 1.5s ease infinite;
+          animation: mouseMove 1.5s ease infinite;
+}
+
+@-webkit-keyframes mouseMove {
+  0% {
+    transform: translate3d(0px, 0px, 0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate3d(0px, -40px, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes mouseMove {
+  0% {
+    transform: translate3d(0px, 0px, 0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate3d(0px, -40px, 0);
+    opacity: 1;
+  }
+}
+.title-bar[template="topBar2"] {
+  height: 40px;
+  background-color: #ffffff;
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+}
+
+[template="topBar2"] .content {
+  width: 1000px;
+  height: 40px;
+  margin: auto;
+}
+
+[template="topBar2"] img {
+  margin: 5px 10px;
+  height: 30px;
+  border: none;
+}
+
+[template="topBar2"] a {
+  float: left;
+  display: block;
+}
+
+[template="topBar2"] .link {
+  color: rgba(102, 102, 102, 1.00);
+  font-size: 14px;
+  margin: 0 10px;
+  line-height: 40px;
+}
+
+[template="topBar2"] a {
+  color: #333;
+  text-decoration: none;
+}
+[template="two"] .edit {
+  display: none;
+}
+
+[template="two"] .content-box {
+  width: 1000px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0%;
+  margin: auto;
+  height: 680px;
+  overflow: hidden;
+  z-index: 99;
+}
+
+[template="two"] .so-9 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  height: 14%;
+}
+
+[template="two"] .so-8 {
+  color: white;
+  position: absolute;
+  line-height: 70px;
+  font-size: 32px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+[template="two"] .so-8 br {
+  display: none;
+}
+
+[template="two"] .so-7 {
+  position: absolute;
+  top: 15%;
+  color: white;
+  font-size: 27px;
+  line-height: 40px;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+[template="two"] .so-6 {
+  color: white;
+  font-size: 15px;
+  line-height: 25px;
+  position: absolute;
+  width: 57%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 23%;
+  height: 140px;
+  overflow: auto;
+}
+
+[template="two"] .so-6 a {
+  color: #ebc560;
+}
+
+[template="two"] .so-2 {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 52%;
+  width: auto;
+}
+
+[template="two"] .so-3 {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  left: 220px;
+  line-height: 20px;
+  display: block;
+}
+
+[template="two"] .so-11 {
+  position: absolute;
+  left: -2%;
+  top: 2%;
+  height: 25%;
+}
+
+[template="two"] .so-3-one {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 80%;
+  height: auto;
+}
+
+[template="two"] .so-5-one {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 8;
+  height: 10%;
+}
+
+[template="two"] .so-9-one {
+  position: absolute;
+  left: 42%;
+  right: 0;
+  bottom: 18%;
+  z-index: 4;
+  margin: auto;
+}
+
+[template="two"] .so-8-one {
+  position: absolute;
+  left: 0;
+  right: 49%;
+  margin: auto;
+  bottom: 10%;
+  z-index: 5;
+}
+
+[template="two"] .so-10-one {
+  position: absolute;
+  left: 6%;
+  right: 0;
+  bottom: 0px;
+  z-index: 3;
+  margin: 0 auto;
+  height: 44%;
+  width: auto;
+}
+
+[template="two"] .menu-box {
+  position: absolute;
+  width: 200px;
+  font-size: 15px;
+  color: #fbc483;
+  right: 4%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 460px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+[template="two"] .menu-box li {
+  cursor: pointer;
+  border-right: 1px solid #f9c089;
+}
+
+[template="two"] .menu-box .active {
+  color: white;
+  border-right: 3px solid white;
+  border-radius: 2px;
+}
+
+[template="two"] .menu-box .home {
+  text-align: center;
+  font-size: 24px;
+  line-height: 50px;
+  border-right: none;
+}
+
+[template="two"] .mini-logo {
+  position: absolute;
+  width: 54%;
+  top: -21%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+/* 这个文件里写的是全局样式,在各个页面都生效 */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  user-select: text;
+  
+  font: normal 12px/180% "SimSun";
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+}
+body {
+  overflow: auto;
+}
+.ox {
+  min-width: 1200px;
+  min-height: 800px;
+}
+html {
+  background-color: #d02b22;
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+}
+body, html, .ox {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  
+  position: relative;
+}
+h1, h2, h3, h4, h5, input {
+  margin: 0;
+  padding: 0;
+}
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, button, input, textarea, th, td{
+  margin:0;
+  padding:0;
+}
+
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInDown {
+  animation-name: slideInDown;
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInUp {
+  animation-name: slideInUp;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  animation-name: zoomIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
